@@ -1,0 +1,43 @@
+1. Inicio
+2. funcion pricipal()
+3.      opcion, i[0-n]
+4.      cadena, x(200)[{a-z},{A-Z},{0-100}]
+5.      Escribir "Ingrese 1 si desea ingresar autos\nIngrese 2 si desea ingresar motos"
+6.      Leer opcion
+7.      Si (opcion == 1) entonces
+8.          cadena <-- ingresarAutos()
+9.          Escribir cadena
+10.      De lo contrario 
+11.         Si (opcion == 2) entonces
+12.             cadena <-- ingresarMotos()
+13.             Escribir cadena
+14.         De lo contrario
+15.             Escribir "Opción Incorrecta"
+16.         Fin si
+17.     Fin si
+18. fin funcion pricipal()
+
+19. funcion ingresarAutos() :x
+20.     marca, x(200)[{a-z},{A-Z},{0-100}]
+21.     fabricacion, i[0-n]
+22.     cadena, x(200)[{a-z},{A-Z},{0-100}]
+23.     Escribir "Ingresar la marca del auto"
+24.     Leer marca
+25.     Escribir "Ingresar el año de fabricacion del auto"
+26.     Leer fabricacion
+27.     cadena <-- "Auto marca " + marca + " con año de fabricacion " + fabricacion + "."
+28.     retornar cadena
+29. fin funcion ingresarAutos
+
+30. funcion ingresarMotos() :x
+31.     motor, x(200)[{a-z},{A-Z},{0-100}]
+32.     asientos, i[0-n]
+33.     cadena, x(200)[{a-z},{A-Z},{0-100}]
+34.     Escribir "Ingrese el tipo de motor de la moto"
+35.     Leer motor
+36.     Escribir "Ingrese el número de asientos que tiene la moto"
+37.     Leer asientos
+38.     cadena <-- "Moto con " + motor "y " + asientos +" asientos."
+39.     retornar cadena
+40. fin funcion ingresarAutos
+41.fin
